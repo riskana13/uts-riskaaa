@@ -1,0 +1,80 @@
+/* Reset dan dasar */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8b400;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fdf6e3;
+}
+
+.menu h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #e88c00;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Responsif */
+@media (min-width: 768px) {
+    .menu-container {
+        gap: 30px;
+    }
+
+    .menu-item {
+        width: 220px;
+    }
+}
